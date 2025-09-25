@@ -1,5 +1,3 @@
-package brower.lang;
-
 public final class Ansi {
     public static String RESET = "\\e[0m";
     public static String BLACK = "\\e[0;30m";
