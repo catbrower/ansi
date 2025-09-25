@@ -1,3 +1,5 @@
+package brower.lang;
+
 public final class Ansi {
     public static String RESET = "\\e[0m";
     public static String BLACK = "\\e[0;30m";
@@ -89,195 +91,195 @@ public final class Ansi {
         return String.format("%s%s%s", WHITE, string, RESET);
     }
 
-    public static String black_bold(String string) {
+    public static String blackBold(String string) {
         return String.format("%s%s%s", BLACK_BOLD, string, RESET);
     }
 
-    public static String red_bold(String string) {
+    public static String redBold(String string) {
         return String.format("%s%s%s", RED_BOLD, string, RESET);
     }
 
-    public static String green_bold(String string) {
+    public static String greenBold(String string) {
         return String.format("%s%s%s", GREEN_BOLD, string, RESET);
     }
 
-    public static String yellow_bold(String string) {
+    public static String yellowBold(String string) {
         return String.format("%s%s%s", YELLOW_BOLD, string, RESET);
     }
 
-    public static String blue_bold(String string) {
+    public static String blueBold(String string) {
         return String.format("%s%s%s", BLUE_BOLD, string, RESET);
     }
 
-    public static String purple_bold(String string) {
+    public static String purpleBold(String string) {
         return String.format("%s%s%s", PURPLE_BOLD, string, RESET);
     }
 
-    public static String cyan_bold(String string) {
+    public static String cyanBold(String string) {
         return String.format("%s%s%s", CYAN_BOLD, string, RESET);
     }
 
-    public static String white_bold(String string) {
+    public static String whiteBold(String string) {
         return String.format("%s%s%s", WHITE_BOLD, string, RESET);
     }
 
-    public static String black_underline(String string) {
+    public static String blackUnderline(String string) {
         return String.format("%s%s%s", BLACK_UNDERLINE, string, RESET);
     }
 
-    public static String red_underline(String string) {
+    public static String redUnderline(String string) {
         return String.format("%s%s%s", RED_UNDERLINE, string, RESET);
     }
 
-    public static String green_underline(String string) {
+    public static String greenUnderline(String string) {
         return String.format("%s%s%s", GREEN_UNDERLINE, string, RESET);
     }
 
-    public static String yellow_underline(String string) {
+    public static String yellowUnderline(String string) {
         return String.format("%s%s%s", YELLOW_UNDERLINE, string, RESET);
     }
 
-    public static String blue_underline(String string) {
+    public static String blueUnderline(String string) {
         return String.format("%s%s%s", BLUE_UNDERLINE, string, RESET);
     }
 
-    public static String purple_underline(String string) {
+    public static String purpleUnderline(String string) {
         return String.format("%s%s%s", PURPLE_UNDERLINE, string, RESET);
     }
 
-    public static String cyan_underline(String string) {
+    public static String cyanUnderline(String string) {
         return String.format("%s%s%s", CYAN_UNDERLINE, string, RESET);
     }
 
-    public static String white_underline(String string) {
+    public static String whiteUnderline(String string) {
         return String.format("%s%s%s", WHITE_UNDERLINE, string, RESET);
     }
 
-    public static String black_background(String string) {
+    public static String blackBackground(String string) {
         return String.format("%s%s%s", BLACK_BACKGROUND, string, RESET);
     }
 
-    public static String red_background(String string) {
+    public static String redBackground(String string) {
         return String.format("%s%s%s", RED_BACKGROUND, string, RESET);
     }
 
-    public static String green_background(String string) {
+    public static String greenBackground(String string) {
         return String.format("%s%s%s", GREEN_BACKGROUND, string, RESET);
     }
 
-    public static String yellow_background(String string) {
+    public static String yellowBackground(String string) {
         return String.format("%s%s%s", YELLOW_BACKGROUND, string, RESET);
     }
 
-    public static String blue_background(String string) {
+    public static String blueBackground(String string) {
         return String.format("%s%s%s", BLUE_BACKGROUND, string, RESET);
     }
 
-    public static String purple_background(String string) {
+    public static String purpleBackground(String string) {
         return String.format("%s%s%s", PURPLE_BACKGROUND, string, RESET);
     }
 
-    public static String cyan_background(String string) {
+    public static String cyanBackground(String string) {
         return String.format("%s%s%s", CYAN_BACKGROUND, string, RESET);
     }
 
-    public static String white_background(String string) {
+    public static String whiteBackground(String string) {
         return String.format("%s%s%s", WHITE_BACKGROUND, string, RESET);
     }
 
-    public static String black_bright(String string) {
+    public static String blackBright(String string) {
         return String.format("%s%s%s", BLACK_BRIGHT, string, RESET);
     }
 
-    public static String red_bright(String string) {
+    public static String redBright(String string) {
         return String.format("%s%s%s", RED_BRIGHT, string, RESET);
     }
 
-    public static String green_bright(String string) {
+    public static String greenBright(String string) {
         return String.format("%s%s%s", GREEN_BRIGHT, string, RESET);
     }
 
-    public static String yellow_bright(String string) {
+    public static String yellowBright(String string) {
         return String.format("%s%s%s", YELLOW_BRIGHT, string, RESET);
     }
 
-    public static String blue_bright(String string) {
+    public static String blueBright(String string) {
         return String.format("%s%s%s", BLUE_BRIGHT, string, RESET);
     }
 
-    public static String purple_bright(String string) {
+    public static String purpleBright(String string) {
         return String.format("%s%s%s", PURPLE_BRIGHT, string, RESET);
     }
 
-    public static String cyan_bright(String string) {
+    public static String cyanBright(String string) {
         return String.format("%s%s%s", CYAN_BRIGHT, string, RESET);
     }
 
-    public static String white_bright(String string) {
+    public static String whiteBright(String string) {
         return String.format("%s%s%s", WHITE_BRIGHT, string, RESET);
     }
 
-    public static String black_bold_bright(String string) {
+    public static String blackBoldBright(String string) {
         return String.format("%s%s%s", BLACK_BOLD_BRIGHT, string, RESET);
     }
 
-    public static String red_bold_bright(String string) {
+    public static String redBoldBright(String string) {
         return String.format("%s%s%s", RED_BOLD_BRIGHT, string, RESET);
     }
 
-    public static String green_bold_bright(String string) {
+    public static String greenBoldBright(String string) {
         return String.format("%s%s%s", GREEN_BOLD_BRIGHT, string, RESET);
     }
 
-    public static String yellow_bold_bright(String string) {
+    public static String yellowBoldBright(String string) {
         return String.format("%s%s%s", YELLOW_BOLD_BRIGHT, string, RESET);
     }
 
-    public static String blue_bold_bright(String string) {
+    public static String blueBoldBright(String string) {
         return String.format("%s%s%s", BLUE_BOLD_BRIGHT, string, RESET);
     }
 
-    public static String purple_bold_bright(String string) {
+    public static String purpleBoldBright(String string) {
         return String.format("%s%s%s", PURPLE_BOLD_BRIGHT, string, RESET);
     }
 
-    public static String cyan_bold_bright(String string) {
+    public static String cyanBoldBright(String string) {
         return String.format("%s%s%s", CYAN_BOLD_BRIGHT, string, RESET);
     }
 
-    public static String white_bold_bright(String string) {
+    public static String whiteBoldBright(String string) {
         return String.format("%s%s%s", WHITE_BOLD_BRIGHT, string, RESET);
     }
 
-    public static String black_background_bright(String string) {
+    public static String blackBackgroundBright(String string) {
         return String.format("%s%s%s", BLACK_BACKGROUND_BRIGHT, string, RESET);
     }
 
-    public static String red_background_bright(String string) {
+    public static String redBackgroundBright(String string) {
         return String.format("%s%s%s", RED_BACKGROUND_BRIGHT, string, RESET);
     }
 
-    public static String green_background_bright(String string) {
+    public static String greenBackgroundBright(String string) {
         return String.format("%s%s%s", GREEN_BACKGROUND_BRIGHT, string, RESET);
     }
 
-    public static String yellow_background_bright(String string) {
+    public static String yellowBackgroundBright(String string) {
         return String.format("%s%s%s", YELLOW_BACKGROUND_BRIGHT, string, RESET);
     }
 
-    public static String blue_background_bright(String string) {
+    public static String blueBackgroundBright(String string) {
         return String.format("%s%s%s", BLUE_BACKGROUND_BRIGHT, string, RESET);
     }
 
-    public static String purple_background_bright(String string) {
+    public static String purpleBackgroundBright(String string) {
         return String.format("%s%s%s", PURPLE_BACKGROUND_BRIGHT, string, RESET);
     }
 
-    public static String cyan_background_bright(String string) {
+    public static String cyanBackgroundBright(String string) {
         return String.format("%s%s%s", CYAN_BACKGROUND_BRIGHT, string, RESET);
     }
 
-    public static String white_background_bright(String string) {
+    public static String whiteBackgroundBright(String string) {
         return String.format("%s%s%s", WHITE_BACKGROUND_BRIGHT, string, RESET);
     }
 }
